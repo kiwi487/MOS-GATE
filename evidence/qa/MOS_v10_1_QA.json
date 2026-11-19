@@ -1,0 +1,1583 @@
+{
+  "summary": {
+    "total": 55,
+    "violations": []
+  },
+  "full": [
+    {
+      "pageWidth": 1920,
+      "viewportWidth": 1920,
+      "cards": [
+        {
+          "height": 659,
+          "bottom": 910.015625,
+          "maxChildBottom": 886.015625,
+          "overflow": false
+        },
+        {
+          "height": 659,
+          "bottom": 910.015625,
+          "maxChildBottom": 878.0625,
+          "overflow": false
+        }
+      ],
+      "svgs": [],
+      "section": "structure",
+      "headerHeight": 78,
+      "heading": "Oxide thickness sets gate capacitance.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "mode": "default"
+    },
+    {
+      "pageWidth": 1920,
+      "viewportWidth": 1920,
+      "cards": [
+        {
+          "height": 670,
+          "bottom": 949.015625,
+          "maxChildBottom": 915.359375,
+          "overflow": false
+        },
+        {
+          "height": 670,
+          "bottom": 949.015625,
+          "maxChildBottom": 928.015625,
+          "overflow": false
+        }
+      ],
+      "svgs": [],
+      "section": "charge",
+      "headerHeight": 78,
+      "heading": "From accumulation to inversion.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "mode": "default"
+    },
+    {
+      "pageWidth": 1920,
+      "viewportWidth": 1920,
+      "cards": [
+        {
+          "height": 690.171875,
+          "bottom": 973.390625,
+          "maxChildBottom": 949.390625,
+          "overflow": false
+        },
+        {
+          "height": 690.171875,
+          "bottom": 973.390625,
+          "maxChildBottom": 828.359375,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 18,
+          "outs": []
+        }
+      ],
+      "section": "electrical",
+      "headerHeight": 78,
+      "heading": "How does thickness change MOSFET performance?",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "mode": "default"
+    },
+    {
+      "pageWidth": 1920,
+      "viewportWidth": 1920,
+      "cards": [
+        {
+          "height": 776.1875,
+          "bottom": 1055.203125,
+          "maxChildBottom": 1031.203125,
+          "overflow": false
+        },
+        {
+          "height": 776.1875,
+          "bottom": 1055.203125,
+          "maxChildBottom": 817.765625,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 14,
+          "outs": []
+        }
+      ],
+      "section": "tradeoffs",
+      "headerHeight": 78,
+      "heading": "Why not make the oxide infinitely thin?",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "mode": "default"
+    },
+    {
+      "pageWidth": 1920,
+      "viewportWidth": 1920,
+      "cards": [
+        {
+          "height": 670,
+          "bottom": 949.015625,
+          "maxChildBottom": 915.359375,
+          "overflow": false
+        },
+        {
+          "height": 670,
+          "bottom": 949.015625,
+          "maxChildBottom": 891.046875,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 15,
+          "outs": []
+        }
+      ],
+      "section": "charge",
+      "headerHeight": 78,
+      "heading": "From accumulation to inversion.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "mode": "charge_carriers"
+    },
+    {
+      "pageWidth": 1920,
+      "viewportWidth": 1920,
+      "cards": [
+        {
+          "height": 670,
+          "bottom": 949.015625,
+          "maxChildBottom": 915.359375,
+          "overflow": false
+        },
+        {
+          "height": 670,
+          "bottom": 949.015625,
+          "maxChildBottom": 888.328125,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 19,
+          "outs": []
+        }
+      ],
+      "section": "charge",
+      "headerHeight": 78,
+      "heading": "From accumulation to inversion.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "mode": "charge_compare"
+    },
+    {
+      "pageWidth": 1920,
+      "viewportWidth": 1920,
+      "cards": [
+        {
+          "height": 670,
+          "bottom": 949.015625,
+          "maxChildBottom": 915.359375,
+          "overflow": false
+        },
+        {
+          "height": 670,
+          "bottom": 949.015625,
+          "maxChildBottom": 928.015625,
+          "overflow": false
+        }
+      ],
+      "svgs": [],
+      "section": "charge",
+      "headerHeight": 78,
+      "heading": "From accumulation to inversion.",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "mode": "charge_map",
+      "zeroAlignDeltaPx": -0.015625
+    },
+    {
+      "pageWidth": 1920,
+      "viewportWidth": 1920,
+      "cards": [
+        {
+          "height": 690.171875,
+          "bottom": 973.390625,
+          "maxChildBottom": 949.390625,
+          "overflow": false
+        },
+        {
+          "height": 690.171875,
+          "bottom": 973.390625,
+          "maxChildBottom": 828.359375,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 18,
+          "outs": []
+        }
+      ],
+      "section": "electrical",
+      "headerHeight": 78,
+      "heading": "How does thickness change MOSFET performance?",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "mode": "id"
+    },
+    {
+      "pageWidth": 1920,
+      "viewportWidth": 1920,
+      "cards": [
+        {
+          "height": 690.171875,
+          "bottom": 973.390625,
+          "maxChildBottom": 949.390625,
+          "overflow": false
+        },
+        {
+          "height": 690.171875,
+          "bottom": 973.390625,
+          "maxChildBottom": 917.859375,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 19,
+          "outs": []
+        }
+      ],
+      "section": "electrical",
+      "headerHeight": 78,
+      "heading": "How does thickness change MOSFET performance?",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "mode": "gm"
+    },
+    {
+      "pageWidth": 1920,
+      "viewportWidth": 1920,
+      "cards": [
+        {
+          "height": 690.171875,
+          "bottom": 973.390625,
+          "maxChildBottom": 949.390625,
+          "overflow": false
+        },
+        {
+          "height": 690.171875,
+          "bottom": 973.390625,
+          "maxChildBottom": 828.359375,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 19,
+          "outs": []
+        }
+      ],
+      "section": "electrical",
+      "headerHeight": 78,
+      "heading": "How does thickness change MOSFET performance?",
+      "viewport": [
+        1920,
+        1080
+      ],
+      "mode": "psi"
+    },
+    {
+      "viewport": [
+        1920,
+        1080
+      ],
+      "mode": "global",
+      "pageErrors": [],
+      "hasDataTopButton": false
+    },
+    {
+      "pageWidth": 1440,
+      "viewportWidth": 1440,
+      "cards": [
+        {
+          "height": 565,
+          "bottom": 794.828125,
+          "maxChildBottom": 766.390625,
+          "overflow": false
+        },
+        {
+          "height": 565,
+          "bottom": 794.828125,
+          "maxChildBottom": 755.484375,
+          "overflow": false
+        }
+      ],
+      "svgs": [],
+      "section": "structure",
+      "headerHeight": 78,
+      "heading": "Oxide thickness sets gate capacitance.",
+      "viewport": [
+        1440,
+        900
+      ],
+      "mode": "default"
+    },
+    {
+      "pageWidth": 1440,
+      "viewportWidth": 1440,
+      "cards": [
+        {
+          "height": 670,
+          "bottom": 927.828125,
+          "maxChildBottom": 867.796875,
+          "overflow": false
+        },
+        {
+          "height": 670,
+          "bottom": 927.828125,
+          "maxChildBottom": 906.828125,
+          "overflow": false
+        }
+      ],
+      "svgs": [],
+      "section": "charge",
+      "headerHeight": 78,
+      "heading": "From accumulation to inversion.",
+      "viewport": [
+        1440,
+        900
+      ],
+      "mode": "default"
+    },
+    {
+      "pageWidth": 1440,
+      "viewportWidth": 1440,
+      "cards": [
+        {
+          "height": 620.703125,
+          "bottom": 881.71875,
+          "maxChildBottom": 857.71875,
+          "overflow": false
+        },
+        {
+          "height": 620.703125,
+          "bottom": 881.71875,
+          "maxChildBottom": 716.5625,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 18,
+          "outs": []
+        }
+      ],
+      "section": "electrical",
+      "headerHeight": 78,
+      "heading": "How does thickness change MOSFET performance?",
+      "viewport": [
+        1440,
+        900
+      ],
+      "mode": "default"
+    },
+    {
+      "pageWidth": 1440,
+      "viewportWidth": 1440,
+      "cards": [
+        {
+          "height": 693.53125,
+          "bottom": 951.1875,
+          "maxChildBottom": 927.1875,
+          "overflow": false
+        },
+        {
+          "height": 693.53125,
+          "bottom": 951.1875,
+          "maxChildBottom": 704.734375,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 14,
+          "outs": []
+        }
+      ],
+      "section": "tradeoffs",
+      "headerHeight": 78,
+      "heading": "Why not make the oxide infinitely thin?",
+      "viewport": [
+        1440,
+        900
+      ],
+      "mode": "default"
+    },
+    {
+      "pageWidth": 1440,
+      "viewportWidth": 1440,
+      "cards": [
+        {
+          "height": 670,
+          "bottom": 927.828125,
+          "maxChildBottom": 867.796875,
+          "overflow": false
+        },
+        {
+          "height": 670,
+          "bottom": 927.828125,
+          "maxChildBottom": 786.828125,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 15,
+          "outs": []
+        }
+      ],
+      "section": "charge",
+      "headerHeight": 78,
+      "heading": "From accumulation to inversion.",
+      "viewport": [
+        1440,
+        900
+      ],
+      "mode": "charge_carriers"
+    },
+    {
+      "pageWidth": 1440,
+      "viewportWidth": 1440,
+      "cards": [
+        {
+          "height": 670,
+          "bottom": 927.828125,
+          "maxChildBottom": 867.796875,
+          "overflow": false
+        },
+        {
+          "height": 670,
+          "bottom": 927.828125,
+          "maxChildBottom": 783.078125,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 19,
+          "outs": []
+        }
+      ],
+      "section": "charge",
+      "headerHeight": 78,
+      "heading": "From accumulation to inversion.",
+      "viewport": [
+        1440,
+        900
+      ],
+      "mode": "charge_compare"
+    },
+    {
+      "pageWidth": 1440,
+      "viewportWidth": 1440,
+      "cards": [
+        {
+          "height": 670,
+          "bottom": 927.828125,
+          "maxChildBottom": 867.796875,
+          "overflow": false
+        },
+        {
+          "height": 670,
+          "bottom": 927.828125,
+          "maxChildBottom": 906.828125,
+          "overflow": false
+        }
+      ],
+      "svgs": [],
+      "section": "charge",
+      "headerHeight": 78,
+      "heading": "From accumulation to inversion.",
+      "viewport": [
+        1440,
+        900
+      ],
+      "mode": "charge_map",
+      "zeroAlignDeltaPx": -0.010416666666657193
+    },
+    {
+      "pageWidth": 1440,
+      "viewportWidth": 1440,
+      "cards": [
+        {
+          "height": 620.703125,
+          "bottom": 881.71875,
+          "maxChildBottom": 857.71875,
+          "overflow": false
+        },
+        {
+          "height": 620.703125,
+          "bottom": 881.71875,
+          "maxChildBottom": 716.5625,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 18,
+          "outs": []
+        }
+      ],
+      "section": "electrical",
+      "headerHeight": 78,
+      "heading": "How does thickness change MOSFET performance?",
+      "viewport": [
+        1440,
+        900
+      ],
+      "mode": "id"
+    },
+    {
+      "pageWidth": 1440,
+      "viewportWidth": 1440,
+      "cards": [
+        {
+          "height": 620.703125,
+          "bottom": 881.71875,
+          "maxChildBottom": 857.71875,
+          "overflow": false
+        },
+        {
+          "height": 620.703125,
+          "bottom": 881.71875,
+          "maxChildBottom": 801.421875,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 19,
+          "outs": []
+        }
+      ],
+      "section": "electrical",
+      "headerHeight": 78,
+      "heading": "How does thickness change MOSFET performance?",
+      "viewport": [
+        1440,
+        900
+      ],
+      "mode": "gm"
+    },
+    {
+      "pageWidth": 1440,
+      "viewportWidth": 1440,
+      "cards": [
+        {
+          "height": 620.703125,
+          "bottom": 881.71875,
+          "maxChildBottom": 857.71875,
+          "overflow": false
+        },
+        {
+          "height": 620.703125,
+          "bottom": 881.71875,
+          "maxChildBottom": 716.5625,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 19,
+          "outs": []
+        }
+      ],
+      "section": "electrical",
+      "headerHeight": 78,
+      "heading": "How does thickness change MOSFET performance?",
+      "viewport": [
+        1440,
+        900
+      ],
+      "mode": "psi"
+    },
+    {
+      "viewport": [
+        1440,
+        900
+      ],
+      "mode": "global",
+      "pageErrors": [],
+      "hasDataTopButton": false
+    },
+    {
+      "pageWidth": 1280,
+      "viewportWidth": 1280,
+      "cards": [
+        {
+          "height": 520.25,
+          "bottom": 781.40625,
+          "maxChildBottom": 763.40625,
+          "overflow": false
+        },
+        {
+          "height": 520.25,
+          "bottom": 781.40625,
+          "maxChildBottom": 747.828125,
+          "overflow": false
+        }
+      ],
+      "svgs": [],
+      "section": "structure",
+      "headerHeight": 117.53125,
+      "heading": "Oxide thickness sets gate capacitance.",
+      "viewport": [
+        1280,
+        720
+      ],
+      "mode": "default"
+    },
+    {
+      "pageWidth": 1280,
+      "viewportWidth": 1280,
+      "cards": [
+        {
+          "height": 670,
+          "bottom": 959.03125,
+          "maxChildBottom": 893.09375,
+          "overflow": false
+        },
+        {
+          "height": 670,
+          "bottom": 959.03125,
+          "maxChildBottom": 938.03125,
+          "overflow": false
+        }
+      ],
+      "svgs": [],
+      "section": "charge",
+      "headerHeight": 117.53125,
+      "heading": "From accumulation to inversion.",
+      "viewport": [
+        1280,
+        720
+      ],
+      "mode": "default"
+    },
+    {
+      "pageWidth": 1280,
+      "viewportWidth": 1280,
+      "cards": [
+        {
+          "height": 606.703125,
+          "bottom": 898.71875,
+          "maxChildBottom": 880.71875,
+          "overflow": false
+        },
+        {
+          "height": 606.703125,
+          "bottom": 898.71875,
+          "maxChildBottom": 718.046875,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 18,
+          "outs": []
+        }
+      ],
+      "section": "electrical",
+      "headerHeight": 117.53125,
+      "heading": "How does thickness change MOSFET performance?",
+      "viewport": [
+        1280,
+        720
+      ],
+      "mode": "default"
+    },
+    {
+      "pageWidth": 1280,
+      "viewportWidth": 1280,
+      "cards": [
+        {
+          "height": 680.421875,
+          "bottom": 969.765625,
+          "maxChildBottom": 951.765625,
+          "overflow": false
+        },
+        {
+          "height": 680.421875,
+          "bottom": 969.765625,
+          "maxChildBottom": 706.90625,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 14,
+          "outs": []
+        }
+      ],
+      "section": "tradeoffs",
+      "headerHeight": 117.53125,
+      "heading": "Why not make the oxide infinitely thin?",
+      "viewport": [
+        1280,
+        720
+      ],
+      "mode": "default"
+    },
+    {
+      "pageWidth": 1280,
+      "viewportWidth": 1280,
+      "cards": [
+        {
+          "height": 670,
+          "bottom": 959.03125,
+          "maxChildBottom": 893.09375,
+          "overflow": false
+        },
+        {
+          "height": 670,
+          "bottom": 959.03125,
+          "maxChildBottom": 849.828125,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 15,
+          "outs": []
+        }
+      ],
+      "section": "charge",
+      "headerHeight": 117.53125,
+      "heading": "From accumulation to inversion.",
+      "viewport": [
+        1280,
+        720
+      ],
+      "mode": "charge_carriers"
+    },
+    {
+      "pageWidth": 1280,
+      "viewportWidth": 1280,
+      "cards": [
+        {
+          "height": 670,
+          "bottom": 959.03125,
+          "maxChildBottom": 893.09375,
+          "overflow": false
+        },
+        {
+          "height": 670,
+          "bottom": 959.03125,
+          "maxChildBottom": 846.078125,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 19,
+          "outs": []
+        }
+      ],
+      "section": "charge",
+      "headerHeight": 117.53125,
+      "heading": "From accumulation to inversion.",
+      "viewport": [
+        1280,
+        720
+      ],
+      "mode": "charge_compare"
+    },
+    {
+      "pageWidth": 1280,
+      "viewportWidth": 1280,
+      "cards": [
+        {
+          "height": 670,
+          "bottom": 959.03125,
+          "maxChildBottom": 893.09375,
+          "overflow": false
+        },
+        {
+          "height": 670,
+          "bottom": 959.03125,
+          "maxChildBottom": 938.03125,
+          "overflow": false
+        }
+      ],
+      "svgs": [],
+      "section": "charge",
+      "headerHeight": 117.53125,
+      "heading": "From accumulation to inversion.",
+      "viewport": [
+        1280,
+        720
+      ],
+      "mode": "charge_map",
+      "zeroAlignDeltaPx": -0.010416666666657193
+    },
+    {
+      "pageWidth": 1280,
+      "viewportWidth": 1280,
+      "cards": [
+        {
+          "height": 606.703125,
+          "bottom": 898.71875,
+          "maxChildBottom": 880.71875,
+          "overflow": false
+        },
+        {
+          "height": 606.703125,
+          "bottom": 898.71875,
+          "maxChildBottom": 718.046875,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 18,
+          "outs": []
+        }
+      ],
+      "section": "electrical",
+      "headerHeight": 117.53125,
+      "heading": "How does thickness change MOSFET performance?",
+      "viewport": [
+        1280,
+        720
+      ],
+      "mode": "id"
+    },
+    {
+      "pageWidth": 1280,
+      "viewportWidth": 1280,
+      "cards": [
+        {
+          "height": 606.703125,
+          "bottom": 898.71875,
+          "maxChildBottom": 880.71875,
+          "overflow": false
+        },
+        {
+          "height": 606.703125,
+          "bottom": 898.71875,
+          "maxChildBottom": 802.90625,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 19,
+          "outs": []
+        }
+      ],
+      "section": "electrical",
+      "headerHeight": 117.53125,
+      "heading": "How does thickness change MOSFET performance?",
+      "viewport": [
+        1280,
+        720
+      ],
+      "mode": "gm"
+    },
+    {
+      "pageWidth": 1280,
+      "viewportWidth": 1280,
+      "cards": [
+        {
+          "height": 606.703125,
+          "bottom": 898.71875,
+          "maxChildBottom": 880.71875,
+          "overflow": false
+        },
+        {
+          "height": 606.703125,
+          "bottom": 898.71875,
+          "maxChildBottom": 718.046875,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 19,
+          "outs": []
+        }
+      ],
+      "section": "electrical",
+      "headerHeight": 117.53125,
+      "heading": "How does thickness change MOSFET performance?",
+      "viewport": [
+        1280,
+        720
+      ],
+      "mode": "psi"
+    },
+    {
+      "viewport": [
+        1280,
+        720
+      ],
+      "mode": "global",
+      "pageErrors": [],
+      "hasDataTopButton": false
+    },
+    {
+      "pageWidth": 810,
+      "viewportWidth": 810,
+      "cards": [
+        {
+          "height": 404.53125,
+          "bottom": 662.859375,
+          "maxChildBottom": 644.859375,
+          "overflow": false
+        },
+        {
+          "height": 382.578125,
+          "bottom": 1060.4375,
+          "maxChildBottom": 1042.4375,
+          "overflow": false
+        }
+      ],
+      "svgs": [],
+      "section": "structure",
+      "headerHeight": 117.53125,
+      "heading": "Oxide thickness sets gate capacitance.",
+      "viewport": [
+        810,
+        850
+      ],
+      "mode": "default"
+    },
+    {
+      "pageWidth": 810,
+      "viewportWidth": 810,
+      "cards": [
+        {
+          "height": 600,
+          "bottom": 912.828125,
+          "maxChildBottom": 891.828125,
+          "overflow": false
+        },
+        {
+          "height": 698.859375,
+          "bottom": 1626.6875,
+          "maxChildBottom": 1605.6875,
+          "overflow": false
+        }
+      ],
+      "svgs": [],
+      "section": "charge",
+      "headerHeight": 117.53125,
+      "heading": "From accumulation to inversion.",
+      "viewport": [
+        810,
+        850
+      ],
+      "mode": "default"
+    },
+    {
+      "pageWidth": 810,
+      "viewportWidth": 810,
+      "cards": [
+        {
+          "height": 580.609375,
+          "bottom": 909.203125,
+          "maxChildBottom": 891.203125,
+          "overflow": false
+        },
+        {
+          "height": 515.359375,
+          "bottom": 1439.5625,
+          "maxChildBottom": 1421.5625,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 18,
+          "outs": []
+        }
+      ],
+      "section": "electrical",
+      "headerHeight": 117.53125,
+      "heading": "How does thickness change MOSFET performance?",
+      "viewport": [
+        810,
+        850
+      ],
+      "mode": "default"
+    },
+    {
+      "pageWidth": 810,
+      "viewportWidth": 810,
+      "cards": [
+        {
+          "height": 656.296875,
+          "bottom": 969.25,
+          "maxChildBottom": 951.25,
+          "overflow": false
+        },
+        {
+          "height": 506.890625,
+          "bottom": 1491.140625,
+          "maxChildBottom": 1473.140625,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 14,
+          "outs": []
+        }
+      ],
+      "section": "tradeoffs",
+      "headerHeight": 117.53125,
+      "heading": "Why not make the oxide infinitely thin?",
+      "viewport": [
+        810,
+        850
+      ],
+      "mode": "default"
+    },
+    {
+      "pageWidth": 810,
+      "viewportWidth": 810,
+      "cards": [
+        {
+          "height": 600,
+          "bottom": 398.828125,
+          "maxChildBottom": 377.828125,
+          "overflow": false
+        },
+        {
+          "height": 600,
+          "bottom": 1013.828125,
+          "maxChildBottom": 982.703125,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 15,
+          "outs": []
+        }
+      ],
+      "section": "charge",
+      "headerHeight": 117.53125,
+      "heading": "From accumulation to inversion.",
+      "viewport": [
+        810,
+        850
+      ],
+      "mode": "charge_carriers"
+    },
+    {
+      "pageWidth": 810,
+      "viewportWidth": 810,
+      "cards": [
+        {
+          "height": 600,
+          "bottom": 398.828125,
+          "maxChildBottom": 377.828125,
+          "overflow": false
+        },
+        {
+          "height": 600,
+          "bottom": 1013.828125,
+          "maxChildBottom": 978.953125,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 19,
+          "outs": []
+        }
+      ],
+      "section": "charge",
+      "headerHeight": 117.53125,
+      "heading": "From accumulation to inversion.",
+      "viewport": [
+        810,
+        850
+      ],
+      "mode": "charge_compare"
+    },
+    {
+      "pageWidth": 810,
+      "viewportWidth": 810,
+      "cards": [
+        {
+          "height": 600,
+          "bottom": 398.828125,
+          "maxChildBottom": 377.828125,
+          "overflow": false
+        },
+        {
+          "height": 698.859375,
+          "bottom": 1112.6875,
+          "maxChildBottom": 1091.6875,
+          "overflow": false
+        }
+      ],
+      "svgs": [],
+      "section": "charge",
+      "headerHeight": 117.53125,
+      "heading": "From accumulation to inversion.",
+      "viewport": [
+        810,
+        850
+      ],
+      "mode": "charge_map",
+      "zeroAlignDeltaPx": -0.015625
+    },
+    {
+      "pageWidth": 810,
+      "viewportWidth": 810,
+      "cards": [
+        {
+          "height": 580.609375,
+          "bottom": 400.203125,
+          "maxChildBottom": 382.203125,
+          "overflow": false
+        },
+        {
+          "height": 515.359375,
+          "bottom": 930.5625,
+          "maxChildBottom": 912.5625,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 18,
+          "outs": []
+        }
+      ],
+      "section": "electrical",
+      "headerHeight": 117.53125,
+      "heading": "How does thickness change MOSFET performance?",
+      "viewport": [
+        810,
+        850
+      ],
+      "mode": "id"
+    },
+    {
+      "pageWidth": 810,
+      "viewportWidth": 810,
+      "cards": [
+        {
+          "height": 580.609375,
+          "bottom": 400.203125,
+          "maxChildBottom": 382.203125,
+          "overflow": false
+        },
+        {
+          "height": 600.21875,
+          "bottom": 1015.421875,
+          "maxChildBottom": 997.421875,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 19,
+          "outs": []
+        }
+      ],
+      "section": "electrical",
+      "headerHeight": 117.53125,
+      "heading": "How does thickness change MOSFET performance?",
+      "viewport": [
+        810,
+        850
+      ],
+      "mode": "gm"
+    },
+    {
+      "pageWidth": 810,
+      "viewportWidth": 810,
+      "cards": [
+        {
+          "height": 580.609375,
+          "bottom": 400.203125,
+          "maxChildBottom": 382.203125,
+          "overflow": false
+        },
+        {
+          "height": 515.359375,
+          "bottom": 930.5625,
+          "maxChildBottom": 912.5625,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 19,
+          "outs": []
+        }
+      ],
+      "section": "electrical",
+      "headerHeight": 117.53125,
+      "heading": "How does thickness change MOSFET performance?",
+      "viewport": [
+        810,
+        850
+      ],
+      "mode": "psi"
+    },
+    {
+      "viewport": [
+        810,
+        850
+      ],
+      "mode": "global",
+      "pageErrors": [],
+      "hasDataTopButton": false
+    },
+    {
+      "pageWidth": 390,
+      "viewportWidth": 390,
+      "cards": [
+        {
+          "height": 475.0625,
+          "bottom": 769.640625,
+          "maxChildBottom": 753.640625,
+          "overflow": false
+        },
+        {
+          "height": 430.15625,
+          "bottom": 1214.796875,
+          "maxChildBottom": 1198.796875,
+          "overflow": false
+        }
+      ],
+      "svgs": [],
+      "section": "structure",
+      "headerHeight": 93.25,
+      "heading": "Oxide thickness sets gate capacitance.",
+      "viewport": [
+        390,
+        844
+      ],
+      "mode": "default"
+    },
+    {
+      "pageWidth": 390,
+      "viewportWidth": 390,
+      "cards": [
+        {
+          "height": 569.359375,
+          "bottom": 950.9375,
+          "maxChildBottom": 934.9375,
+          "overflow": false
+        },
+        {
+          "height": 758.90625,
+          "bottom": 1724.84375,
+          "maxChildBottom": 1708.84375,
+          "overflow": false
+        }
+      ],
+      "svgs": [],
+      "section": "charge",
+      "headerHeight": 93.25,
+      "heading": "From accumulation to inversion.",
+      "viewport": [
+        390,
+        844
+      ],
+      "mode": "default"
+    },
+    {
+      "pageWidth": 390,
+      "viewportWidth": 390,
+      "cards": [
+        {
+          "height": 808.875,
+          "bottom": 1196.65625,
+          "maxChildBottom": 1180.65625,
+          "overflow": false
+        },
+        {
+          "height": 591.328125,
+          "bottom": 1802.984375,
+          "maxChildBottom": 1786.984375,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 18,
+          "outs": []
+        }
+      ],
+      "section": "electrical",
+      "headerHeight": 93.25,
+      "heading": "How does thickness change MOSFET performance?",
+      "viewport": [
+        390,
+        844
+      ],
+      "mode": "default"
+    },
+    {
+      "pageWidth": 390,
+      "viewportWidth": 390,
+      "cards": [
+        {
+          "height": 919.296875,
+          "bottom": 1266.796875,
+          "maxChildBottom": 1250.796875,
+          "overflow": false
+        },
+        {
+          "height": 536.375,
+          "bottom": 1818.171875,
+          "maxChildBottom": 1802.171875,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 14,
+          "outs": []
+        }
+      ],
+      "section": "tradeoffs",
+      "headerHeight": 93.25,
+      "heading": "Why not make the oxide infinitely thin?",
+      "viewport": [
+        390,
+        844
+      ],
+      "mode": "default"
+    },
+    {
+      "pageWidth": 390,
+      "viewportWidth": 390,
+      "cards": [
+        {
+          "height": 569.359375,
+          "bottom": 324.9375,
+          "maxChildBottom": 308.9375,
+          "overflow": false
+        },
+        {
+          "height": 713.90625,
+          "bottom": 1053.84375,
+          "maxChildBottom": 1037.84375,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 15,
+          "outs": []
+        }
+      ],
+      "section": "charge",
+      "headerHeight": 93.25,
+      "heading": "From accumulation to inversion.",
+      "viewport": [
+        390,
+        844
+      ],
+      "mode": "charge_carriers"
+    },
+    {
+      "pageWidth": 390,
+      "viewportWidth": 390,
+      "cards": [
+        {
+          "height": 569.359375,
+          "bottom": 324.9375,
+          "maxChildBottom": 308.9375,
+          "overflow": false
+        },
+        {
+          "height": 710.15625,
+          "bottom": 1050.09375,
+          "maxChildBottom": 1034.09375,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 19,
+          "outs": []
+        }
+      ],
+      "section": "charge",
+      "headerHeight": 93.25,
+      "heading": "From accumulation to inversion.",
+      "viewport": [
+        390,
+        844
+      ],
+      "mode": "charge_compare"
+    },
+    {
+      "pageWidth": 390,
+      "viewportWidth": 390,
+      "cards": [
+        {
+          "height": 569.359375,
+          "bottom": 324.9375,
+          "maxChildBottom": 308.9375,
+          "overflow": false
+        },
+        {
+          "height": 736.515625,
+          "bottom": 1076.453125,
+          "maxChildBottom": 1060.453125,
+          "overflow": false
+        }
+      ],
+      "svgs": [],
+      "section": "charge",
+      "headerHeight": 93.25,
+      "heading": "From accumulation to inversion.",
+      "viewport": [
+        390,
+        844
+      ],
+      "mode": "charge_map",
+      "zeroAlignDeltaPx": -1.0052083333333286
+    },
+    {
+      "pageWidth": 390,
+      "viewportWidth": 390,
+      "cards": [
+        {
+          "height": 808.875,
+          "bottom": 357.265625,
+          "maxChildBottom": 341.265625,
+          "overflow": false
+        },
+        {
+          "height": 591.328125,
+          "bottom": 963.59375,
+          "maxChildBottom": 947.59375,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 18,
+          "outs": []
+        }
+      ],
+      "section": "electrical",
+      "headerHeight": 93.25,
+      "heading": "How does thickness change MOSFET performance?",
+      "viewport": [
+        390,
+        844
+      ],
+      "mode": "id"
+    },
+    {
+      "pageWidth": 390,
+      "viewportWidth": 390,
+      "cards": [
+        {
+          "height": 808.875,
+          "bottom": 357.265625,
+          "maxChildBottom": 341.265625,
+          "overflow": false
+        },
+        {
+          "height": 711.59375,
+          "bottom": 1083.859375,
+          "maxChildBottom": 1067.859375,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 19,
+          "outs": []
+        }
+      ],
+      "section": "electrical",
+      "headerHeight": 93.25,
+      "heading": "How does thickness change MOSFET performance?",
+      "viewport": [
+        390,
+        844
+      ],
+      "mode": "gm"
+    },
+    {
+      "pageWidth": 390,
+      "viewportWidth": 390,
+      "cards": [
+        {
+          "height": 808.875,
+          "bottom": 357.265625,
+          "maxChildBottom": 341.265625,
+          "overflow": false
+        },
+        {
+          "height": 591.328125,
+          "bottom": 963.59375,
+          "maxChildBottom": 947.59375,
+          "overflow": false
+        }
+      ],
+      "svgs": [
+        {
+          "labelCount": 19,
+          "outs": []
+        }
+      ],
+      "section": "electrical",
+      "headerHeight": 93.25,
+      "heading": "How does thickness change MOSFET performance?",
+      "viewport": [
+        390,
+        844
+      ],
+      "mode": "psi"
+    },
+    {
+      "viewport": [
+        390,
+        844
+      ],
+      "mode": "global",
+      "pageErrors": [],
+      "hasDataTopButton": false
+    }
+  ]
+}

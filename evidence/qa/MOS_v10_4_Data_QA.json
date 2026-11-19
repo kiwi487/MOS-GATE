@@ -1,0 +1,15 @@
+{
+  "condition_count": 1586,
+  "plotted_value_count": 7930,
+  "numeric_dataset_sha256": "cb92f440a2c066ce8b07dcb2cbb71264dbb39fd5b4a238ee700f0ebee676c29f",
+  "max_error_vs_source": {
+    "id": 4.835860920593404e-07,
+    "qe": 4.987621871066494e-09,
+    "dh": 4.966973499165306e-10,
+    "psi": 4.988442769970902e-09,
+    "eo": 4.989010093936486e-09,
+    "cox": 4.765714489707307e-10
+  },
+  "all_values_match": true,
+  "reference_model": "COMSOL 5.3 mosfet_v2.mph via original CSV exports"
+}

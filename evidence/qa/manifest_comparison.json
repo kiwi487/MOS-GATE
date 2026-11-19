@@ -1,0 +1,35 @@
+{
+  "old": {
+    "rows": 6344,
+    "kind_counts": {
+      "electron": 1586,
+      "hole": 1586,
+      "field": 1586,
+      "potential": 1586
+    },
+    "dimensions": "654x480",
+    "unique_webpaths": 6344,
+    "indices_and_voltage_mapping": "PASS"
+  },
+  "new": {
+    "rows": 6344,
+    "kind_counts": {
+      "electron": 1586,
+      "hole": 1586,
+      "field": 1586,
+      "potential": 1586
+    },
+    "dimensions": "1280x600",
+    "unique_webpaths": 6344,
+    "indices_and_voltage_mapping": "PASS"
+  },
+  "manifest_comparison": {
+    "old_new_mismatched_sha256": 6344,
+    "old_png_not_same_as_uploaded_new_png": true
+  },
+  "source_image_zip": {
+    "verified_png_sha256": 6344,
+    "match_old_manifest": "PASS",
+    "match_uploaded_1280x600_manifest": "NOT APPLICABLE (different resolution)"
+  }
+}

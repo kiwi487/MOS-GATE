@@ -1,0 +1,132 @@
+[
+  {
+    "width": 1920,
+    "initial_height": 780,
+    "observed_max_height": 780,
+    "height_changes": [
+      780
+    ],
+    "method_y_changes": [
+      5063
+    ],
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "width": 1650,
+    "initial_height": 780,
+    "observed_max_height": 780,
+    "height_changes": [
+      780
+    ],
+    "method_y_changes": [
+      5051
+    ],
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "width": 1280,
+    "initial_height": 780,
+    "observed_max_height": 780,
+    "height_changes": [
+      780
+    ],
+    "method_y_changes": [
+      4913
+    ],
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "width": 810,
+    "initial_height": 780,
+    "observed_max_height": 780,
+    "height_changes": [
+      780
+    ],
+    "method_y_changes": [
+      6287
+    ],
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "width": 720,
+    "initial_height": 995,
+    "observed_max_height": 995,
+    "height_changes": [
+      995
+    ],
+    "method_y_changes": [
+      6516
+    ],
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "width": 600,
+    "initial_height": 1060,
+    "observed_max_height": 1060,
+    "height_changes": [
+      1060
+    ],
+    "method_y_changes": [
+      6679
+    ],
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "width": 540,
+    "initial_height": 1107,
+    "observed_max_height": 1107,
+    "height_changes": [
+      1107
+    ],
+    "method_y_changes": [
+      6862
+    ],
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "width": 480,
+    "initial_height": 1189,
+    "observed_max_height": 1189,
+    "height_changes": [
+      1189
+    ],
+    "method_y_changes": [
+      7043
+    ],
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "width": 390,
+    "initial_height": 1354,
+    "observed_max_height": 1354,
+    "height_changes": [
+      1354
+    ],
+    "method_y_changes": [
+      7942
+    ],
+    "overflow": 0,
+    "errors": []
+  },
+  {
+    "width": 360,
+    "initial_height": 1515,
+    "observed_max_height": 1515,
+    "height_changes": [
+      1515
+    ],
+    "method_y_changes": [
+      8383
+    ],
+    "overflow": 0,
+    "errors": []
+  }
+]

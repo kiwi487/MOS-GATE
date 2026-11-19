@@ -1,0 +1,372 @@
+[
+  {
+    "width": 1920,
+    "height": 1080,
+    "start_q1": "For the same SiO₂ dielectric, what happens to the ideal gate capacitance per area when the oxide thickness decreases?",
+    "steps_count": 4,
+    "global_overflow": false,
+    "errors": [],
+    "cases": {
+      "wrong_feedback": true,
+      "q1_answers_locked": true,
+      "q1_score_not_added": true,
+      "q2_progress": true,
+      "correct_feedback": true,
+      "last_button_summary": true,
+      "score_three": true,
+      "summary_after_finish": true,
+      "method_visible": true,
+      "restart_resets": true,
+      "skip_summary": true,
+      "answers_ready": true,
+      "gm_tab": true,
+      "hole_default": true
+    },
+    "layout": {
+      "quizPlayScreen": {
+        "x": 128,
+        "y": 304.015625,
+        "width": 1149.21875,
+        "height": 455.046875,
+        "scrollWidth": 1149,
+        "clientWidth": 1149
+      },
+      "quizQuestion": {
+        "x": 128,
+        "y": 424.40625,
+        "width": 870,
+        "height": 123.65625,
+        "scrollWidth": 870,
+        "clientWidth": 870
+      },
+      "quizAnswers": {
+        "x": 128,
+        "y": 570.0625,
+        "width": 1149.21875,
+        "height": 172,
+        "scrollWidth": 1149,
+        "clientWidth": 1149
+      },
+      "quizNext": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "scrollWidth": 0,
+        "clientWidth": 0
+      },
+      "comsolMethod": {
+        "x": 100,
+        "y": 868.015625,
+        "width": 1720,
+        "height": 646.34375,
+        "scrollWidth": 1720,
+        "clientWidth": 1720
+      },
+      "quizMilestones": {
+        "x": 1349.21875,
+        "y": 422.546875,
+        "width": 446.78125,
+        "height": 187,
+        "scrollWidth": 447,
+        "clientWidth": 447
+      }
+    }
+  },
+  {
+    "width": 1440,
+    "height": 900,
+    "start_q1": "For the same SiO₂ dielectric, what happens to the ideal gate capacitance per area when the oxide thickness decreases?",
+    "steps_count": 4,
+    "global_overflow": false,
+    "errors": [],
+    "cases": {
+      "wrong_feedback": true,
+      "q1_answers_locked": true,
+      "q1_score_not_added": true,
+      "q2_progress": true,
+      "correct_feedback": true,
+      "last_button_summary": true,
+      "score_three": true,
+      "summary_after_finish": true,
+      "method_visible": true,
+      "restart_resets": true,
+      "skip_summary": true,
+      "answers_ready": true,
+      "gm_tab": true,
+      "hole_default": true
+    },
+    "layout": {
+      "quizPlayScreen": {
+        "x": 60,
+        "y": 333.4375,
+        "width": 905.328125,
+        "height": 386.1875,
+        "scrollWidth": 905,
+        "clientWidth": 905
+      },
+      "quizQuestion": {
+        "x": 60,
+        "y": 446.59375,
+        "width": 870,
+        "height": 62.03125,
+        "scrollWidth": 870,
+        "clientWidth": 870
+      },
+      "quizAnswers": {
+        "x": 60,
+        "y": 530.625,
+        "width": 905.328125,
+        "height": 172,
+        "scrollWidth": 905,
+        "clientWidth": 905
+      },
+      "quizNext": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "scrollWidth": 0,
+        "clientWidth": 0
+      },
+      "comsolMethod": {
+        "x": 32,
+        "y": 897.4375,
+        "width": 1376,
+        "height": 637.203125,
+        "scrollWidth": 1376,
+        "clientWidth": 1376
+      },
+      "quizMilestones": {
+        "x": 1037.328125,
+        "y": 434.640625,
+        "width": 346.671875,
+        "height": 187,
+        "scrollWidth": 347,
+        "clientWidth": 347
+      }
+    }
+  },
+  {
+    "width": 1280,
+    "height": 720,
+    "start_q1": "For the same SiO₂ dielectric, what happens to the ideal gate capacitance per area when the oxide thickness decreases?",
+    "steps_count": 4,
+    "global_overflow": false,
+    "errors": [],
+    "cases": {
+      "wrong_feedback": true,
+      "q1_answers_locked": true,
+      "q1_score_not_added": true,
+      "q2_progress": true,
+      "correct_feedback": true,
+      "last_button_summary": true,
+      "score_three": true,
+      "summary_after_finish": true,
+      "method_visible": true,
+      "restart_resets": true,
+      "skip_summary": true,
+      "answers_ready": true,
+      "gm_tab": true,
+      "hole_default": true
+    },
+    "layout": {
+      "quizPlayScreen": {
+        "x": 60,
+        "y": 314.390625,
+        "width": 791.90625,
+        "height": 385.3125,
+        "scrollWidth": 792,
+        "clientWidth": 792
+      },
+      "quizQuestion": {
+        "x": 60,
+        "y": 427.546875,
+        "width": 791.90625,
+        "height": 61.15625,
+        "scrollWidth": 792,
+        "clientWidth": 792
+      },
+      "quizAnswers": {
+        "x": 60,
+        "y": 510.703125,
+        "width": 791.90625,
+        "height": 172,
+        "scrollWidth": 792,
+        "clientWidth": 792
+      },
+      "quizNext": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "scrollWidth": 0,
+        "clientWidth": 0
+      },
+      "comsolMethod": {
+        "x": 32,
+        "y": 843.390625,
+        "width": 1216,
+        "height": 612.640625,
+        "scrollWidth": 1216,
+        "clientWidth": 1216
+      },
+      "quizMilestones": {
+        "x": 917.90625,
+        "y": 412.59375,
+        "width": 312.09375,
+        "height": 187,
+        "scrollWidth": 312,
+        "clientWidth": 312
+      }
+    }
+  },
+  {
+    "width": 810,
+    "height": 850,
+    "start_q1": "For the same SiO₂ dielectric, what happens to the ideal gate capacitance per area when the oxide thickness decreases?",
+    "steps_count": 4,
+    "global_overflow": false,
+    "errors": [],
+    "cases": {
+      "wrong_feedback": true,
+      "q1_answers_locked": true,
+      "q1_score_not_added": true,
+      "q2_progress": true,
+      "correct_feedback": true,
+      "last_button_summary": true,
+      "score_three": true,
+      "summary_after_finish": true,
+      "method_visible": true,
+      "restart_resets": true,
+      "skip_summary": true,
+      "answers_ready": true,
+      "gm_tab": true,
+      "hole_default": true
+    },
+    "layout": {
+      "quizPlayScreen": {
+        "x": 46,
+        "y": 311.203125,
+        "width": 718,
+        "height": 385.3125,
+        "scrollWidth": 718,
+        "clientWidth": 718
+      },
+      "quizQuestion": {
+        "x": 46,
+        "y": 424.359375,
+        "width": 718,
+        "height": 61.15625,
+        "scrollWidth": 718,
+        "clientWidth": 718
+      },
+      "quizAnswers": {
+        "x": 46,
+        "y": 507.515625,
+        "width": 718,
+        "height": 172,
+        "scrollWidth": 718,
+        "clientWidth": 718
+      },
+      "quizNext": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "scrollWidth": 0,
+        "clientWidth": 0
+      },
+      "comsolMethod": {
+        "x": 18,
+        "y": 1146.6875,
+        "width": 774,
+        "height": 785.15625,
+        "scrollWidth": 774,
+        "clientWidth": 774
+      },
+      "quizMilestones": {
+        "x": 36,
+        "y": 959.40625,
+        "width": 738,
+        "height": 46,
+        "scrollWidth": 738,
+        "clientWidth": 738
+      }
+    }
+  },
+  {
+    "width": 390,
+    "height": 844,
+    "start_q1": "For the same SiO₂ dielectric, what happens to the ideal gate capacitance per area when the oxide thickness decreases?",
+    "steps_count": 4,
+    "global_overflow": false,
+    "errors": [],
+    "cases": {
+      "wrong_feedback": true,
+      "q1_answers_locked": true,
+      "q1_score_not_added": true,
+      "q2_progress": true,
+      "correct_feedback": true,
+      "last_button_summary": true,
+      "score_three": true,
+      "summary_after_finish": true,
+      "method_visible": true,
+      "restart_resets": true,
+      "skip_summary": true,
+      "answers_ready": true,
+      "gm_tab": true,
+      "hole_default": true
+    },
+    "layout": {
+      "quizPlayScreen": {
+        "x": 37,
+        "y": 367.046875,
+        "width": 316,
+        "height": 667.953125,
+        "scrollWidth": 316,
+        "clientWidth": 316
+      },
+      "quizQuestion": {
+        "x": 37,
+        "y": 535.578125,
+        "width": 316,
+        "height": 152.890625,
+        "scrollWidth": 316,
+        "clientWidth": 316
+      },
+      "quizAnswers": {
+        "x": 37,
+        "y": 710.46875,
+        "width": 316,
+        "height": 307.53125,
+        "scrollWidth": 316,
+        "clientWidth": 316
+      },
+      "quizNext": {
+        "x": 0,
+        "y": 0,
+        "width": 0,
+        "height": 0,
+        "scrollWidth": 0,
+        "clientWidth": 0
+      },
+      "comsolMethod": {
+        "x": 18,
+        "y": 1534.125,
+        "width": 354,
+        "height": 1358.5,
+        "scrollWidth": 354,
+        "clientWidth": 354
+      },
+      "quizMilestones": {
+        "x": 34,
+        "y": 1195.203125,
+        "width": 322,
+        "height": 175,
+        "scrollWidth": 322,
+        "clientWidth": 322
+      }
+    }
+  }
+]

@@ -1,0 +1,69 @@
+// NMOS_PostProcess_53_R4 - COMSOL 5.3 Model Method BODY
+// Stage 1: safe postprocessing setup. Paste this IN PLACE OF the previous R3 body.
+// Purpose: reuse an existing, user-validated Cut Line 2D linked to Study 2;
+//          create a dedicated Line Integration and Table.
+// SAFETY: No physics/mesh/study changes, NO solver calls, NO automatic setResult().
+// Why: R3 threw ArrayIndexOutOfBoundsException: 2 on its setResult() line 69.
+// The new method does not blindly evaluate 84 parameter solutions, and it does
+// not create a second, unvalidated cut line. Keep a backup of the .mph.
+
+String sourceDataset = "dset2"; // Study 2 / Solution 2, as used in earlier methods
+String tableTag = "nmTbl53R4";
+String intTag = "nmInt53R4";
+
+if (model.result().dataset().index(sourceDataset) < 0) {
+    throw new RuntimeException("R4: dset2 not found. Verify the Study 2 solution dataset tag.");
+}
+
+// Find a manually configured Cut Line 2D which already points to Study 2.
+// Do not use the unverified cut-line nodes created by R2/R3.
+String cutTag = "";
+String[] datasetTags = model.result().dataset().tags();
+for (int i = 0; i < datasetTags.length; i++) {
+    String tag = datasetTags[i];
+    if (tag.startsWith("nmCut")) {
+        continue;
+    }
+    if (!"CutLine2D".equals(model.result().dataset(tag).getType())) {
+        continue;
+    }
+    if (!sourceDataset.equals(model.result().dataset(tag).getString("data"))) {
+        continue;
+    }
+    // This source is expected to be the Cut Line used for your working
+    // 4-thickness, 21-Vg curve. If multiple exist, inspect the Debug Log.
+    cutTag = tag;
+    break;
+}
+if (cutTag.length() == 0) {
+    throw new RuntimeException("R4: no manual CutLine2D linked to dset2. Point an existing working Cut Line 2D to Study 2/Solution 2, then rerun.");
+}
+debugLog("R4: reusing Cut Line dataset tag: " + cutTag);
+debugLog("R4: source label: " + model.result().dataset(cutTag).label());
+
+// Dedicated table; no collision with R2/R3 and safe to run again.
+if (model.result().table().index(tableTag) < 0) {
+    model.result().table().create(tableTag, "Table");
+}
+model.result().table(tableTag).label("NMOS Electron Sheet Charge - R4");
+
+// Dedicated Line Integration referencing the ALREADY WORKING manual cut.
+if (model.result().numerical().index(intTag) < 0) {
+    model.result().numerical().create(intTag, "IntLine");
+}
+model.result().numerical(intTag).label("NMOS Gate Center Electron Integral - R4");
+model.result().numerical(intTag).set("data", cutTag);
+model.result().numerical(intTag).set("expr", new String[] {"-e_const*semi.N"});
+model.result().numerical(intTag).set("unit", new String[] {"C/m^2"});
+model.result().numerical(intTag).set("table", tableTag);
+
+// Start from ONE solution instead of 'all' for diagnosing the earlier failure.
+model.result().numerical(intTag).set("outerinput", "first");
+model.result().numerical(intTag).set("innerinput", "first");
+
+// IMPORTANT: Do not call setResult() here. First inspect the chosen cut-line
+// dataset in the GUI; then right-click the new R4 integration > Evaluate.
+// When that works, select All solutions in the R4 integration and evaluate again.
+debugLog("R4: setup complete. No results were evaluated; use Derived Values > the R4 Line Integration > Evaluate.");
+// Interpretation: result is electron sheet charge along the cut; it is NOT
+// automatically background-subtracted inversion charge Q_inv.

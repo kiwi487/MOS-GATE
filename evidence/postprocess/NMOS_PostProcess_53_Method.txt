@@ -1,0 +1,29 @@
+// COMSOL 5.3 / 5.3a Model Method body (paste into Method Editor).
+// Purpose: Add a 2D vertical cut line and a line integration to the EXISTING model.
+// Assumptions: Study 2's solution dataset tag is dset2; geometry length unit is um.
+// IMPORTANT: Save a backup .mph before running; do not run more than once (fixed tags).
+// This creates only postprocessing features. It does not solve or modify physics.
+
+// Gate-center cut line: (x,y) = (1.5,0.70) -> (1.5,0.45) um.
+model.result().dataset().create("cln900", "CutLine2D");
+model.result().dataset("cln900").label("NMOS Gate Center Cut Line");
+model.result().dataset("cln900").set("data", "dset2");
+model.result().dataset("cln900").set("method", "twopoint");
+model.result().dataset("cln900").set("genpoints", new double[][] {
+    {1.5, 0.70, 0.0},
+    {1.5, 0.45, 0.0}
+});
+
+// A results table.
+model.result().table().create("tbl900", "Table");
+model.result().table("tbl900").label("NMOS Electron Sheet Charge");
+
+// Integrate electron charge over the cut line for stored Study 2 solutions.
+// This is TOTAL electron sheet charge over the cut, not automatically Q_inv.
+model.result().numerical().create("int900", "IntLine");
+model.result().numerical("int900").label("Gate Center Electron Charge");
+model.result().numerical("int900").set("data", "cln900");
+model.result().numerical("int900").set("expr", new String[] {"-e_const*semi.N"});
+model.result().numerical("int900").set("unit", new String[] {"C/m^2"});
+model.result().numerical("int900").set("table", "tbl900");
+model.result().numerical("int900").setResult();

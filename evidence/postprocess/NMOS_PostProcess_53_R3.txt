@@ -1,0 +1,72 @@
+// NMOS_PostProcess_53_R3 -- COMSOL 5.3 Model Method BODY
+// Paste this code inside the existing Model Method, replacing its OLD body.
+// Creates/updates one dedicated Cut Line 2D, Table, and Line Integration.
+// Does not delete other nodes, edit physics, or run Study 1/2.
+// Back up the .mph first. Assumes Study 2 dataset tag is dset2.
+
+String dataTag = "dset2";
+String cutTag = "nmCut53R3";
+String tableTag = "nmTbl53R3";
+String intTag = "nmInt53R3";
+String cutLabel = "NMOS Gate Center Cut Line R3";
+String tableLabel = "NMOS Electron Sheet Charge R3";
+String intLabel = "NMOS Gate Center Line Integration R3";
+
+// 0. Make sure the source dataset exists before creating any objects.
+if (model.result().dataset().index(dataTag) < 0) {
+    throw new RuntimeException("Cannot find Study 2 dataset tag dset2. Verify the tag under Results > Datasets.");
+}
+
+// 1. Create a uniquely tagged Cut Line, OR reuse this method's own node.
+// Do not touch an existing node merely because its tag matches cln900.
+if (model.result().dataset().index(cutTag) >= 0) {
+    if (!cutLabel.equals(model.result().dataset(cutTag).label())) {
+        cutTag = model.result().dataset().uniquetag("nmCut53R3");
+        model.result().dataset().create(cutTag, "CutLine2D");
+    }
+} else {
+    model.result().dataset().create(cutTag, "CutLine2D");
+}
+model.result().dataset(cutTag).label(cutLabel);
+model.result().dataset(cutTag).set("data", dataTag);
+model.result().dataset(cutTag).set("method", "twopoint");
+model.result().dataset(cutTag).set("bounded", "on");
+// Point coordinates in SI meters: (1.5, 0.70) -> (1.5, 0.45) um.
+model.result().dataset(cutTag).set("genpoints", new double[][] {
+    {1.5e-6, 0.70e-6, 0.0},
+    {1.5e-6, 0.45e-6, 0.0}
+});
+
+// 2. Create a dedicated results table or reuse this method's own table.
+if (model.result().table().index(tableTag) >= 0) {
+    if (!tableLabel.equals(model.result().table(tableTag).label())) {
+        tableTag = model.result().table().uniquetag("nmTbl53R3");
+        model.result().table().create(tableTag, "Table");
+    }
+} else {
+    model.result().table().create(tableTag, "Table");
+}
+model.result().table(tableTag).label(tableLabel);
+
+// 3. Create a dedicated numerical integration or reuse our own node.
+if (model.result().numerical().index(intTag) >= 0) {
+    if (!intLabel.equals(model.result().numerical(intTag).label())) {
+        intTag = model.result().numerical().uniquetag("nmInt53R3");
+        model.result().numerical().create(intTag, "IntLine");
+    }
+} else {
+    model.result().numerical().create(intTag, "IntLine");
+}
+model.result().numerical(intTag).label(intLabel);
+model.result().numerical(intTag).set("data", cutTag);
+model.result().numerical(intTag).set("expr", new String[] {"-e_const*semi.N"});
+model.result().numerical(intTag).set("unit", new String[] {"C/m^2"});
+model.result().numerical(intTag).set("outerinput", "all");
+model.result().numerical(intTag).set("innerinput", "all");
+model.result().numerical(intTag).set("table", tableTag);
+
+// 4. Evaluate saved solutions only; this does not recompute the MOSFET study.
+model.result().numerical(intTag).setResult();
+
+// Interpretation: This is the TOTAL ELECTRON sheet charge on a 250 nm
+// cut, NOT background-subtracted inversion charge Q_inv.

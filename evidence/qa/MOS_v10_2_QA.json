@@ -1,0 +1,264 @@
+{
+  "checks": [
+    {
+      "viewport": "1920x1080",
+      "vg": -2,
+      "expected": "Hole accumulation",
+      "actual": "Hole accumulation",
+      "pass": true
+    },
+    {
+      "viewport": "1920x1080",
+      "vg": 0.0,
+      "expected": "Depletion / transition",
+      "actual": "Depletion / transition",
+      "pass": true
+    },
+    {
+      "viewport": "1920x1080",
+      "vg": 4,
+      "expected": "Electron-rich channel",
+      "actual": "Electron-rich channel",
+      "pass": true
+    },
+    {
+      "viewport": "1920x1080",
+      "default_quantity": "hole",
+      "options": [
+        [
+          "hole",
+          "Hole concentration"
+        ],
+        [
+          "electron",
+          "Electron concentration"
+        ],
+        [
+          "field",
+          "Electric field"
+        ],
+        [
+          "potential",
+          "Electric potential"
+        ]
+      ],
+      "default_frame": "images/hole/tox_11/vg_0.8.png",
+      "default_status": "Electron-rich channel",
+      "badge_inside_card": true,
+      "badge_overlaps_heading": false,
+      "no_document_horizontal_overflow": true,
+      "js_errors": []
+    },
+    {
+      "viewport": "1440x900",
+      "vg": -2,
+      "expected": "Hole accumulation",
+      "actual": "Hole accumulation",
+      "pass": true
+    },
+    {
+      "viewport": "1440x900",
+      "vg": 0.0,
+      "expected": "Depletion / transition",
+      "actual": "Depletion / transition",
+      "pass": true
+    },
+    {
+      "viewport": "1440x900",
+      "vg": 4,
+      "expected": "Electron-rich channel",
+      "actual": "Electron-rich channel",
+      "pass": true
+    },
+    {
+      "viewport": "1440x900",
+      "default_quantity": "hole",
+      "options": [
+        [
+          "hole",
+          "Hole concentration"
+        ],
+        [
+          "electron",
+          "Electron concentration"
+        ],
+        [
+          "field",
+          "Electric field"
+        ],
+        [
+          "potential",
+          "Electric potential"
+        ]
+      ],
+      "default_frame": "images/hole/tox_11/vg_0.8.png",
+      "default_status": "Electron-rich channel",
+      "badge_inside_card": true,
+      "badge_overlaps_heading": false,
+      "no_document_horizontal_overflow": true,
+      "js_errors": []
+    },
+    {
+      "viewport": "1280x720",
+      "vg": -2,
+      "expected": "Hole accumulation",
+      "actual": "Hole accumulation",
+      "pass": true
+    },
+    {
+      "viewport": "1280x720",
+      "vg": 0.0,
+      "expected": "Depletion / transition",
+      "actual": "Depletion / transition",
+      "pass": true
+    },
+    {
+      "viewport": "1280x720",
+      "vg": 4,
+      "expected": "Electron-rich channel",
+      "actual": "Electron-rich channel",
+      "pass": true
+    },
+    {
+      "viewport": "1280x720",
+      "default_quantity": "hole",
+      "options": [
+        [
+          "hole",
+          "Hole concentration"
+        ],
+        [
+          "electron",
+          "Electron concentration"
+        ],
+        [
+          "field",
+          "Electric field"
+        ],
+        [
+          "potential",
+          "Electric potential"
+        ]
+      ],
+      "default_frame": "images/hole/tox_11/vg_0.8.png",
+      "default_status": "Electron-rich channel",
+      "badge_inside_card": true,
+      "badge_overlaps_heading": false,
+      "no_document_horizontal_overflow": true,
+      "js_errors": []
+    },
+    {
+      "viewport": "810x850",
+      "vg": -2,
+      "expected": "Hole accumulation",
+      "actual": "Hole accumulation",
+      "pass": true
+    },
+    {
+      "viewport": "810x850",
+      "vg": 0.0,
+      "expected": "Depletion / transition",
+      "actual": "Depletion / transition",
+      "pass": true
+    },
+    {
+      "viewport": "810x850",
+      "vg": 4,
+      "expected": "Electron-rich channel",
+      "actual": "Electron-rich channel",
+      "pass": true
+    },
+    {
+      "viewport": "810x850",
+      "default_quantity": "hole",
+      "options": [
+        [
+          "hole",
+          "Hole concentration"
+        ],
+        [
+          "electron",
+          "Electron concentration"
+        ],
+        [
+          "field",
+          "Electric field"
+        ],
+        [
+          "potential",
+          "Electric potential"
+        ]
+      ],
+      "default_frame": "images/hole/tox_11/vg_0.8.png",
+      "default_status": "Electron-rich channel",
+      "badge_inside_card": true,
+      "badge_overlaps_heading": false,
+      "no_document_horizontal_overflow": true,
+      "js_errors": []
+    },
+    {
+      "viewport": "390x844",
+      "vg": -2,
+      "expected": "Hole accumulation",
+      "actual": "Hole accumulation",
+      "pass": true
+    },
+    {
+      "viewport": "390x844",
+      "vg": 0.0,
+      "expected": "Depletion / transition",
+      "actual": "Depletion / transition",
+      "pass": true
+    },
+    {
+      "viewport": "390x844",
+      "vg": 4,
+      "expected": "Electron-rich channel",
+      "actual": "Electron-rich channel",
+      "pass": true
+    },
+    {
+      "viewport": "390x844",
+      "default_quantity": "hole",
+      "options": [
+        [
+          "hole",
+          "Hole concentration"
+        ],
+        [
+          "electron",
+          "Electron concentration"
+        ],
+        [
+          "field",
+          "Electric field"
+        ],
+        [
+          "potential",
+          "Electric potential"
+        ]
+      ],
+      "default_frame": "images/hole/tox_11/vg_0.8.png",
+      "default_status": "Electron-rich channel",
+      "badge_inside_card": true,
+      "badge_overlaps_heading": false,
+      "no_document_horizontal_overflow": true,
+      "js_errors": []
+    }
+  ],
+  "screenshots": [
+    "MOS_v10_2_section2_1920.png",
+    "MOS_v10_2_section2_1440.png",
+    "MOS_v10_2_section2_1280.png",
+    "MOS_v10_2_section2_810.png",
+    "MOS_v10_2_section2_390.png"
+  ],
+  "errors": [],
+  "source_version": "v10.1",
+  "target_version": "v10.2",
+  "testing_method": "Headless Chromium with inline HTML and local route-mocked real image fixtures extracted from historical archive; 5 viewport sizes.",
+  "notes": [
+    "Only the Chapter 2 presentation was modified. Numerical data, classification logic, and PNG image bytes were not modified.",
+    "Historical v10.1 QA is separately retained. 1280×600 PNG originals have not been provided."
+  ]
+}
