@@ -425,6 +425,16 @@ h2{font-size:clamp(24px,1.57vw,30px);font-weight:780;line-height:1.24;margin:0}
  #challenge .summary-copy p{font-size:clamp(16px,4.2vw,20px)}
  #challenge .summary-takeaway{font-size:clamp(17px,4.4vw,20px)}
 }
+
+/* v10.7 R5 — mobile-only chapter spacing. Desktop layouts remain unchanged.
+   The original min-height intentionally provides slide-sized chapters on desktop,
+   but produces a large blank tail below the cards on portrait phones. */
+/* Include phones with "Desktop site" viewport (~980 CSS px): touch input stays coarse. */
+@media screen and (max-width:720px) and (orientation:portrait),
+       screen and (max-width:1120px) and (orientation:portrait) and (pointer:coarse){
+  .chapter{min-height:0;padding-top:18px;padding-bottom:24px;}
+  .chapter .head{margin-bottom:13px;}
+}
 </style>
 </head>
 <body>
